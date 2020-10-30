@@ -1,0 +1,56 @@
+div {
+	margin-top:10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border: 2px solid #000000;
+	background-color: #5C0FC190;
+	font-size:35;
+}
+
+body{
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	background-image: url('https://static.zerochan.net/NARUTO%3A.SHIPP%C5%AADEN.full.1003851.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.banner-image{
+	background-image: url('https://coverfiles.alphacoders.com/340/34076.png');
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.banner-text{
+	
+	font-size:75px;
+	text-align: center;
+	padding-top: 50px;
+	color: white;
+}
+
+.header {
+	margin-left:30px;
+	font-size:32px;
+	font-style: italic;
+	text-decoration: underline;
+	
+}
+
+p, ul, li {
+	margin-left:20px;
+	font-size:20px;
+}
+
+.link{
+	color: #C10F12;
+	text-decoration: none;
+}
+
+.link:hover{
+	color: #0F33C1;
+}
