@@ -1,0 +1,20 @@
+body{
+	background-color: #bfffd6;
+	font-size: 25px;
+}
+
+.column {
+	float: left;
+	width: 40%;
+	padding: 15px;
+}
+
+.frog{ 
+	height: 150px; 
+	width: 250px;
+}
+
+.bob{
+	height: 150px;
+	width: 250px;
+}
