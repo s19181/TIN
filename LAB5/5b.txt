@@ -1,0 +1,14 @@
+function Student(id, firstName, lastName, grades) {
+    this.firstName=firstName;
+    this.lastName=lastName;
+    this.id=id;
+    this.grades=[...grades];
+
+    this.info=() => {
+     console.log(`Full name: ${this.firstName} ${this.lastName}, grade is: ${this.grades.reduce((a,b) => a+b,0)/this.grades.length} `);
+   };
+}
+
+let student = new Student('1', 'Maksym', 'Lyskov', [4,5,5,3,5,4,3,4,5,3]);
+
+student.info();

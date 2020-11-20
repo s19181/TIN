@@ -1,0 +1,32 @@
+let object =
+{
+    name: "Maksym",
+    surname: "Lyskov",
+    yearOfBirth: 2001,
+    
+};
+
+function changeName(String) {
+  let newName = String;
+  object.name = newName;
+  return newName;
+}
+
+function getSurname() {
+  return object.surname;
+}
+console.log(changeName("John"));
+console.log(getSurname());
+
+
+function printObjTypes(obj)
+{
+    let properties = Object.keys(obj);
+    console.log("Object:");
+    for (let prop of properties)
+    {
+        console.log("\t" + prop + " ={ " + obj[prop] + "} of type " + typeof  obj[prop]);
+    }
+}
+
+printObjTypes(object);
