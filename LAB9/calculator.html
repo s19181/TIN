@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="calculator.js"></script>
+</head>
+<body>
+<form onsubmit="return false;">
+    <p>Weight</p>
+    <input type="number" name="w" id="w">
+    <p>Height</p>
+    <input type="number" name="h" id="h">
+    <p>Select metics</p>
+    <select name="operations" id="operations">
+        <option value="si">Metric units</option>
+        <option value="usc">USC units</option>
+    </select>
+
+    <button onclick="calculate()">Calculate</button>
+</form>
+<p>Your BMI is: </p>
+<p id="result">0</p>
+</body>
+</html>
